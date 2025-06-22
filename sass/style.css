@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  color: #FFFFFF;
+  font-size: 62.5%;
+  min-height: 100vh;
+  background-color: #0D192C;
+}
+
+.card {
+  padding: 2.4em;
+  height: 64.4em;
+  width: 35em;
+  background-color: #15263F;
+  border-radius: 1.5rem;
+}
+.card__content {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 2.4em;
+}
+.card__content--img {
+  background-image: url("../images/image-equilibrium.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30em;
+  width: 100%;
+  border-radius: 0.8em;
+}
+.card__content--detail {
+  display: flex;
+  justify-content: space-between;
+}
+.card__content--detail-icon {
+  margin-right: 0.6em;
+}
+.card__content--details-text-name {
+  font-size: 2.2em;
+  line-height: 125%;
+}
+.card__content--details-text-description {
+  margin: 2.4em 0 2.4em 0;
+  font-size: 1.8em;
+  color: #8BACD9;
+}
+.card__content--details-data-price, .card__content--details-data-sale {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+.card__content--details-data-price {
+  color: #00FFF8;
+}
+.card__content--details-data-price-text {
+  font-weight: 400;
+  font-size: 1.8em;
+}
+.card__content--details-data-sale {
+  color: #8BACD9;
+}
+.card__content--details-data-sale-text {
+  font-weight: 300;
+  font-size: 1.8em;
+}
+.card__content--details-creator {
+  display: flex;
+  align-items: center;
+}
+.card__content--details-creator-img {
+  width: 3.3em;
+  height: 3.3em;
+  margin-right: 1.2em;
+}
+.card__content--details-creator-text {
+  font-size: 1.6em;
+  font-weight: 300;
+}
+.card__content--details-creator-text-special {
+  color: #8BACD9;
+}
+.card__content--divider {
+  width: 100%;
+  height: 1px;
+  margin: 2.4em 0 2.4em 0;
+  background-color: #2E405A;
+}/*# sourceMappingURL=style.css.map */
