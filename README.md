@@ -1,1 +1,1 @@
-Not finished yet!! I must add hover effect
+# Frontend Mentor - NFT preview card component
